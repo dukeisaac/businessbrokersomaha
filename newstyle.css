@@ -1,0 +1,63 @@
+/* Apply basic styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Style the article container */
+article {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the article title */
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* Style section headings */
+h2 {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Style subheadings within sections */
+h3 {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Style main content paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Apply some margin to the bottom of paragraphs for better spacing */
+p + p {
+    margin-top: 15px;
+}
+
+/* Style the conclusion paragraph */
+h2:last-of-type {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Style the "Happy brokering!" paragraph at the end */
+p:last-of-type {
+    text-align: center;
+    font-weight: bold;
+    color: #008000;
+    margin-top: 20px;
+}
